@@ -3,29 +3,15 @@
 ```mermaid
 flowchart TD
 
-Sample
+A[Biological Sample] --> B[Measurement]
 
-↓
+B --> C[Signal Processing]
 
-Measurement
+C --> D[Feature Extraction]
 
-↓
+D --> E[Mirror Mathematics]
 
-Signal Processing
+E --> F[EMP Framework]
 
-↓
-
-Feature Extraction
-
-↓
-
-Mirror Mathematics
-
-↓
-
-EMP Framework
-
-↓
-
-Decision Support
+F --> G[Decision Support]
 ```
